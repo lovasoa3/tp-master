@@ -1,0 +1,8 @@
+main .dept{
+    transition: 0.2s ease-in;
+}
+
+main .dept:hover {
+    cursor: pointer;
+    transform: translateY(-6px);
+}

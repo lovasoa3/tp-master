@@ -1,0 +1,19 @@
+#index-return-link {
+    position: fixed;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f8f9fa;
+    padding: 8px 12px;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+    text-decoration: none;
+    color: #000;
+    z-index: 1000;
+}
+
+#index-return-link:hover {
+    background-color: #ebebee;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
